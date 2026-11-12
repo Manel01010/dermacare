@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Derma Care | Conforto para a pele durante a catapora</title>
+  <meta name="description" content="Linha de produtos naturais para conforto e bem-estar durante a catapora.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="barra">Produtos naturais de uso externo, pensados para a rotina da catapora</div>
+
+<header class="topo">
+  <a href="#inicio" class="logo" aria-label="Derma Care, início">
+    <svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M16 4c-4 3-5 8-2 11 3-1 5-5 2-11zM16 4c4 3 5 8 2 11-3-1-5-5-2-11zM16 28V13M8 14c0 5 4 8 8 8M24 14c0 5-4 8-8 8"/></svg>
+    <span>DERMA<br>CARE</span>
+  </a>
+  <nav aria-label="Principal">
+    <a href="#proposito">Propósito</a>
+    <a href="#rotina">Rotina</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#kit">Kit completo</a>
+  </nav>
+  <button class="btn-sacola" id="abrir" type="button" aria-label="Abrir sacola">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8zM9 8a3 3 0 016 0"/></svg>
+    <b id="contador">0</b>
+  </button>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="hero-texto">
+      <h1>Conforto para a pele durante a catapora.</h1>
+      <p>Cinco produtos naturais que aliviam a coceira, acalmam a pele e deixam a recuperação mais leve, do banho ao quarto.</p>
+      <div class="hero-botoes">
+        <a class="botao" href="#produtos">Ver produtos</a>
+        <a class="botao claro" href="#proposito">Nosso propósito</a>
+      </div>
+    </div>
+    <img src="img/linha-completa.jpg" alt="Linha completa Derma Care: sabonete, bruma, refrescante, spray e saquinho para banho">
+  </section>
+
+  <section class="diferenciais" aria-label="Diferenciais">
+    <div><svg viewBox="0 0 32 32"><path d="M16 4c-4 3-5 8-2 11 3-1 5-5 2-11zM16 4c4 3 5 8 2 11-3-1-5-5-2-11zM16 28V13"/></svg><h3>Ingredientes naturais</h3><p>Camomila, aloe vera, aveia e calêndula.</p></div>
+    <div><svg viewBox="0 0 32 32"><path d="M16 5c5 6 8 10 8 14a8 8 0 01-16 0c0-4 3-8 8-14z"/></svg><h3>Alívio da coceira</h3><p>Fórmulas que refrescam e acalmam.</p></div>
+    <div><svg viewBox="0 0 32 32"><path d="M8 20c2-9 12-12 17-12-1 6-4 15-13 16M8 20l-3 5"/></svg><h3>Pele sensível</h3><p>Limpeza suave, sem agredir.</p></div>
+    <div><svg viewBox="0 0 32 32"><path d="M5 16h22M16 5v22M9 9l14 14M23 9L9 23"/></svg><h3>Prático na rotina</h3><p>Spray, espuma e sachês fáceis de usar.</p></div>
+  </section>
+
+  <section id="proposito" class="proposito">
+    <div class="proposito-titulo">
+      <h2>Nosso propósito</h2>
+      <p class="destaque">Promover conforto, bem-estar e cuidado durante o período da catapora.</p>
+    </div>
+    <div class="proposito-texto">
+      <p>A Derma Care nasceu para atender diferentes necessidades de quem está com catapora, com produtos inovadores que se encaixam na rotina e tornam a doença mais confortável.</p>
+      <blockquote>Como criar uma linha que dê mais conforto e bem-estar, cuide da pele, seja novidade no mercado e seja prática no dia a dia?</blockquote>
+      <p>A resposta são cinco produtos de uso externo, com ingredientes que acalmam, hidratam e refrescam.</p>
+    </div>
+  </section>
+
+  <section id="rotina" class="rotina">
+    <h2>Uma rotina de conforto, passo a passo</h2>
+    <ol>
+      <li><span>1</span><h3>No banho</h3><p>Sabonete líquido calmante e saquinho de ervas para limpar e acalmar a pele.</p></li>
+      <li><span>2</span><h3>Ao longo do dia</h3><p>Bruma ou espuma refrescante para aliviar a coceira sempre que precisar.</p></li>
+      <li><span>3</span><h3>Na hora de descansar</h3><p>Spray calmante para a cama e o ambiente, para dormir melhor.</p></li>
+    </ol>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <div class="produtos-topo">
+      <div><h2>Nossos produtos</h2><p>Abra "Ingredientes" para ver o que cada um faz pela pele.</p></div>
+      <div class="filtros" role="group" aria-label="Filtrar produtos">
+        <button class="ativo" data-f="todos" type="button">Todos</button>
+        <button data-f="Banho" type="button">Banho</button>
+        <button data-f="Alívio da coceira" type="button">Alívio da coceira</button>
+        <button data-f="Ambiente" type="button">Ambiente</button>
+      </div>
+    </div>
+    <div class="grade" id="grade"></div>
+  </section>
+
+  <section id="kit" class="kit">
+    <div>
+      <h2>Kit completo Derma Care</h2>
+      <p>Os cinco produtos juntos: sabonete, bruma, refrescante, saquinho para banho e spray calmante.</p>
+    </div>
+    <div class="kit-preco"><span id="kit-valor"></span><button type="button" id="kit-add" class="botao">Adicionar o kit à sacola</button></div>
+  </section>
+</main>
+
+<footer>
+  <div class="rodape">
+    <div><div class="logo"><span>DERMA CARE</span></div><p>Conforto, bem-estar e cuidado durante a catapora.</p></div>
+    <div><h4>Navegue</h4><a href="#proposito">Propósito</a><a href="#rotina">Rotina</a><a href="#produtos">Produtos</a></div>
+    <div><h4>Aviso</h4><p>Site de apresentação. Produtos de uso externo: teste em uma pequena área da pele e consulte um profissional de saúde em caso de dúvida.</p></div>
+  </div>
+  <p class="direitos">© 2026 Derma Care</p>
+</footer>
+
+<div class="fundo" id="fundo" hidden></div>
+<aside class="gaveta" id="gaveta" aria-label="Sacola" aria-hidden="true">
+  <div class="gaveta-topo"><h3>Sua sacola</h3><button type="button" id="fechar" aria-label="Fechar sacola">✕</button></div>
+  <ul id="itens"></ul>
+  <div class="gaveta-rodape"><div class="total"><span>Total</span><strong id="total">R$ 0,00</strong></div><button type="button" class="botao" id="finalizar">Finalizar compra</button></div>
+</aside>
+<div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
